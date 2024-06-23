@@ -1,0 +1,52 @@
+:root   {
+    --nav-bg-color:#ecf1e6;
+    --nav-color:cornflowerblue;
+    --page-bg-color:blanchedalmond;
+}
+
+body    {
+    background-color:var(--page-bg-color);
+}
+
+nav     {
+    background-color:var(--nav-bg-color);
+}
+
+.nav-link    {
+    color:var(--nav-color);
+}
+
+span > a    {
+    font-size:1.0rem;
+    color:var(--nav-color) !important;
+}
+
+span > a:hover  {
+    background-color:var(--page-bg-color);
+}
+
+.carousel-inner {
+    width:50%;
+    margin:2.0rem auto;
+}
+
+.carousel-item  {
+    width:100%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height:50px;
+    width:50px;
+    background-color:#7b3f00;
+    background-size:100%,100%;
+    border-radius:50%; /*makes a circle*/
+    border:5px solid var(--nav-bg-color);
+}
+
+h1  {
+    color:var(--nav-color);
+}
+
+.card-header    {
+    background-color:var(--nav-bg-color);
+}
